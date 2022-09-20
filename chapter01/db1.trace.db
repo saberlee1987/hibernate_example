@@ -1,0 +1,12 @@
+2022-09-20 11:27:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE MESSAGES ID[*] EXITS"; SQL statement:
+drop table messages id exits [42000-200]
+2022-09-20 11:27:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MESSAGES" not found; SQL statement:
+insert into messages(text) values (?) [42102-200]
+2022-09-20 11:28:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE MESSAGES IF EXITS[*]"; expected "EXISTS"; SQL statement:
+drop table messages if exits [42001-200]
+2022-09-20 11:28:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MESSAGES" not found; SQL statement:
+insert into messages(text) values (?) [42102-200]
